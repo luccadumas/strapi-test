@@ -25,7 +25,8 @@ Operating system: OSX<br>
 <code>
  npm run setup:npm
 </code>
-<br>
+<br><br>
+
 
 **This command will launch both of your backend and frontend servers and do a data migration in your backend server**<br>
 
@@ -34,9 +35,9 @@ Operating system: OSX<br>
 </code>
 <code>
   npm run develop:npm
-</code>
+</code><br>
 
-Alternatively, you can still start your servers separately:
+Alternatively, you can still start your servers separately: <br>
 
 **Start the backend server**
 
@@ -48,7 +49,7 @@ npm run build
 <code>
 npm run develop
 </code>
-<br>
+<br><br>
 
 **Start the frontend server**
 
@@ -56,4 +57,4 @@ npm run develop
 
 Next server is running here => http://localhost:3000 Strapi server is running here => http://localhost:1337
 <br><br>
-Enjoy this starter
+Enjoy this starter!
