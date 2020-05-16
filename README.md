@@ -35,7 +35,7 @@ Operating system: OSX<br>
 </code>
 <code>
   npm run develop:npm
-</code><br>
+</code><br><br>
 
 Alternatively, you can still start your servers separately: <br>
 
