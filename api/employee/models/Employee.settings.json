@@ -1,0 +1,34 @@
+{
+  "connection": "default",
+  "collectionName": "Employee",
+  "info": {
+    "name": "employee",
+    "description": "Company employees"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "FirstName": {
+      "required": true,
+      "type": "string"
+    },
+    "LastName": {
+      "default": "LastName",
+      "type": "string"
+    },
+    "DateBirth": {
+      "type": "date"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "corporations": {
+      "collection": "corporation",
+      "via": "employees",
+      "dominant": true
+    }
+  }
+}

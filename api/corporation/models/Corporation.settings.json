@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "Corporation",
+  "info": {
+    "name": "corporation",
+    "description": "Corporation test"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Name": {
+      "required": true,
+      "type": "string"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "employees": {
+      "collection": "employee",
+      "via": "corporations"
+    }
+  }
+}
