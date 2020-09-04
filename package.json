@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.5",
-    "strapi": "3.0.0-alpha.26.2",
+    "strapi": "3.1.4",
     "strapi-utils": "3.0.0-alpha.26.2",
     "strapi-hook-bookshelf": "3.0.0-alpha.26.2",
     "strapi-hook-knex": "3.0.0-alpha.26.2",
